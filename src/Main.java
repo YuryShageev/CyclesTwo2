@@ -17,7 +17,7 @@ public class Main {
         //}
 
         //Задача 1
-        System.out.println("Task 1");
+        System.out.println("Task 1 and 2");
         int moneyPerMonth = 15000;
         int total = 0;
         int rate = 7;
@@ -27,7 +27,9 @@ public class Main {
             total = total + (total/100 * rate/12);
             total = total + moneyPerMonth;
             month = month + 1;
-            System.out.println(month + " месяцев требуется, чтобы накопить " + total + " рублей");
+            if (i % 6 == 0) {
+                System.out.println("На " + month + " месяце сумма накоплений будет составлять " + total + " рублей");
+            }
         }
 
 
