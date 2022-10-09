@@ -8,6 +8,10 @@ public class Main {
             System.out.printf("Месяц %d, сумма %d \n", monthNum, sum);
             monthNum++;
         }
+
+        System.out.println("Task 3");
+        //НЕПОНЯТНО НИЧЕГО!!!
+
     }
 
 
